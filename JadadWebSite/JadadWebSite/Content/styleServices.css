@@ -1,0 +1,169 @@
+﻿* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-size: 80%;
+}
+
+.layout {
+    background-color: black;
+    width: 100%;
+    height: 60px;
+}
+
+.layout li {
+    display: inline;
+    padding: 20px
+}
+
+.layout li a {
+    font-family: 'Nova Square', cursive;
+    background-color: black;
+    font-size: 1.5em;
+    padding: 10px;
+    float: left;
+    color: #028090;
+    text-decoration: none;
+}
+
+.layout ul li a:hover {
+    background: linear-gradient(to right, #155799, #159957);
+    color: black;
+}
+
+/*titulo*/
+
+.serviciostitulo {
+    text-align: center;
+    height: 800px;
+    background-image: url('Image/Services/fondo oficial jadad.jpeg');
+    background-size: cover;
+    background-position: center;
+    font-family: 'Nova Square', cursive;
+}
+
+.serviciostitulo h1 {
+    position: relative;
+    top: 30%;
+    font-size: 6.5em;
+    color: white;
+}
+
+/*Servicios web*/
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 300px;
+    height: 200PX;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    object-fit: cover;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+/*contenedores para las imagenes*/
+
+.container {
+    position: relative;
+    top: -20px;
+    left: 100px;
+    width: 100%;
+    z-index: 100;
+}
+
+.container h1 {
+    font-family: 'Nova Square', cursive;
+    text-align: center;
+    color: white;
+}
+
+/*contenedores azules*/
+
+.contenedorblue {
+    position: relative;
+    top: 160px;
+    height: 300px;
+    background-color: #028090;
+    width: 100%;
+}
+
+/*carrete de imagenes */
+
+.maximoancho {
+    width: 90%;
+    max-width: 1100px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.contenedor {
+    width: 95%;
+    margin: auto;
+    height: 325px;
+    padding-top: 30px;
+    overflow: hidden;
+}
+
+.contenedor ul {
+    display: flex;
+    width: 300%;
+    animation: change 20s infinite alternate linear;
+}
+
+.contenedor li {
+    list-style: none;
+    width: 100%;
+    justify-content: center;
+}
+
+@keyframes change {
+    0% {
+        margin-left: 0
+    }
+
+    30% {
+        margin-left: 0
+    }
+
+    35% {
+        margin-left: -100%
+    }
+
+    65% {
+        margin-left: -100%
+    }
+
+    70% {
+        margin-left: -200%
+    }
+
+    100% {
+        margin-left: -200%
+    }
+}
+
+.slider img {
+    width: 85%;
+    height: 500px;
+    background-size: cover;
+    transition: opacity .5s;
+}
+
+/*prueba de disenio 2*/
+
+.carta {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}

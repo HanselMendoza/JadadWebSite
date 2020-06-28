@@ -121,6 +121,7 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\ServicesController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -140,7 +141,14 @@
     <Content Include="Content\Image\Home\search.png" />
     <Content Include="Content\Image\Home\three-daniel.png" />
     <Content Include="Content\Image\Home\two-justin-kropp.jpg" />
+    <Content Include="Content\Image\Services\carrete 1.jpg" />
+    <Content Include="Content\Image\Services\carrete 2.jpg" />
+    <Content Include="Content\Image\Services\fondo oficial jadad.jpeg" />
+    <Content Include="Content\Image\Services\pagina-web1.jpg" />
+    <Content Include="Content\Image\Services\pagina-web2.jpg" />
+    <Content Include="Content\Image\Services\pagina-web3.jpg" />
     <Content Include="Content\styleHome.css" />
+    <Content Include="Content\styleServices.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -170,6 +178,7 @@
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Services\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
