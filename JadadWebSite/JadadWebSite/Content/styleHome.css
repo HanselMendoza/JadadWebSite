@@ -1,0 +1,479 @@
+﻿*{
+    margin: 0;
+    padding: 0;
+}
+
+.max-width{
+    width: 90%;
+    max-width: 1100px;
+    margin: auto;
+    overflow: hidden;
+}
+
+header{
+    width: 100%; 
+    height: 723px;
+    background-image: url(Image/Home/banner-index.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    color: #fff;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Nova Square', cursive;
+}
+
+header .banner-title{
+    font-size: 160px;
+    letter-spacing: 20px;
+}
+
+header .banner-subtitle{
+    font-size: 25px;
+    font-weight: 300;
+    letter-spacing: 5px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.description-div{
+    overflow: hidden;
+    padding: 100px 0;
+}
+
+.text{
+    line-height: 20px;
+    font-weight: 300; 
+    font-size: 19px;
+    text-align: justify;
+    color: #47525E;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.gradient{
+    background-size: 400% 400%;
+    background-image: linear-gradient(132deg, #028090 ,#00A896, #02C39A);
+    animation: gradient 10s ease infinite;
+}
+
+@keyframes gradient{
+    0% {background-position: 0 50%;}
+    50% {background-position: 100% 50%;}
+    100% {background-position: 0 50%;}
+}
+
+.services{
+    position: relative;
+    height: 820px;
+}
+
+.services-info{
+    width: 100%;
+    height: 350px;
+    color: #fff;
+    position: relative;
+    background-color: #00A896;
+}
+
+.subtitle{
+    color: #fff;
+    text-align: center;
+    font-weight: 100;
+    font-size: 30px;
+    padding: 70px 0 20px 0;
+    font-family: 'Nova Square', cursive;
+}
+
+.services-info .text{
+    color: #fff;
+}
+
+.services-content{
+    position: relative;
+    width: 100%;
+    background-color: transparent;
+    top: -140px;
+}
+
+.services-cards{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap; /* Especifica si los elementos han de permanecer en una misma línea o no */
+    justify-content: space-around; /* Distribucion del espacio entre y alrededor de los flex */
+}
+
+.services-card{
+    margin: 20px 0;
+    width: 25%;
+    height: 275px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 35px;
+    background-color: #fff;
+    transition: .5s;
+    box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+.services-card:hover{
+    box-shadow: 10px 10px 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+.services-card .text{
+    text-align: center;
+}
+
+.services-card h4{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+.services-card img{
+    width: 90px;
+    margin: 10px 0;
+    object-fit: cover;
+}
+
+.button{
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 8px;
+    width: 130px;
+    color: #fff;
+    display: flex;
+    transition: .5s;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 16px;
+    text-decoration: none;
+    justify-content: center;
+    background-color: #47525E;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.button:hover{
+    background-color: #00A896;
+}
+
+.services hr{
+    margin-top: 90px;
+}
+
+.briefcase{
+    position: relative;
+}
+
+.briefcase-div .subtitle{
+    padding: 0;
+    color: #47525E;
+}
+
+.briefcase-div h3{
+    font-size: 16px;
+    color: #00A896;
+    text-align: center;
+    letter-spacing: 6px;
+}
+
+.proyect{
+    display: flex;
+    height: 400px;
+    margin: 0 auto;
+    margin: 40px 0;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+}
+
+.proyect img{
+    width: 450px;
+}
+
+.one{
+    width: 50%;
+    float: left;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.two{
+    width: 30%;
+    float: left;
+    margin: 0 auto;
+    margin-left: -50px;
+}
+
+.testimonies{
+    height: 450px;
+    margin-top: 50px;
+}
+
+.testimonies .subtitle{
+    padding: 50px 0 25px 0;
+}
+
+.testimonies .text{
+    color: #fff;
+    text-align: center;
+}
+
+.testimonies-div{
+    width: 95%;
+    margin: auto;
+}
+
+.testimonies-div ul{
+    display: flex;
+    width: 300%;
+    animation: change 20s infinite alternate linear;
+}
+
+.testimonies-div li{
+    width: 100%;
+    list-style: none;
+    margin-top: 30px;
+}
+
+.testimonies-div .text{
+    margin: 0 120px;
+}
+
+@keyframes change{
+    0% { margin-left: 0; }
+    20% { margin-left: 0; }
+
+    25% { margin-left: -100%; }
+    75% { margin-left: -100%; }
+
+    80% { margin-left: -200%; }
+    100% { margin-left: -200%; }
+}
+
+.testimonies ul.slider li img{
+    width: 150px;
+    margin: 0 auto;
+    display: flex;
+    margin-bottom: 25px;
+    border-radius:150px;
+    justify-content: center;
+}
+
+.testimonies .menu-slider{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.testimonies .menu-slider li{
+    display: inline-block;
+    text-align: center;
+}
+
+.testimonies .menu-slider li a{
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    display: inline-block;
+    text-decoration: none;
+    background-color: #47525E;
+} 
+
+/* 
+
+.testimonies ul.slider{
+    position: relative;
+    height: 250px;
+}
+
+.testimonies ul.slider li {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    opacity: 0;
+    width: inherit;
+    height: inherit;
+    transition: opacity .5s;
+    background-color: #00A896;
+}
+
+.testimonies ul.slider li:first-child {
+    opacity: 1; 
+}
+
+.testimonies ul.slider li:target {
+    opacity: 1;
+} 
+
+*/
+
+@media screen and (max-width: 900px){ 
+
+    .services-card{
+        width: 35%;
+    }
+
+    .services{
+        position: relative;
+        height: 1200px;
+    }
+    
+    .proyect{
+        height: 400px;
+        margin: 0 auto;
+        margin: 40px 0;
+    }
+    
+    .proyect img{
+        width: 350px;
+    }
+    
+    .one {
+        width: 50%;
+        float: none;
+        margin: 0 auto;
+    }
+    
+    .two{
+        width: 40%;
+        float: none;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 750px){ 
+    
+    header .banner-title{
+        font-size: 120px;
+    }
+    
+    header .banner-subtitle{
+        font-size: 22px;
+    }
+
+    .proyect{
+        height: 460px;
+        margin: 0 auto;
+        margin: 40px 0;
+        display: block;
+    }
+    
+    .proyect img{
+        width: 390px;
+        margin-bottom: 30px;
+    }
+
+    .proyect h4{
+        text-align: center;
+    }
+    
+    .one {
+        width: 50%;
+        float: none;
+        margin: 0 auto;
+    }
+    
+    .two{
+        width: 60%;
+        float: none;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 630px){ 
+
+    .services-card{
+        width: 45%;
+    }
+
+    .services{
+        position: relative;
+        height: 1580px;
+    }
+
+    .two{
+        width: 70%;
+    }
+
+    .testimonies-div .text{
+        margin: 0 70px;
+    }
+
+    header .banner-title{
+        font-size: 100px;
+    }
+    
+    header .banner-subtitle{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 480px){ 
+
+    .services-cards{
+        margin-top: 40px;
+    }
+
+    .services-card{
+        width: 60%;
+    }
+
+    .proyect img{
+        width: 320px;
+    }
+
+    .two{
+        width: 75%;
+    }
+
+    .testimonies{
+        height: 510px;
+        margin-top: 50px;
+    }
+
+    header .banner-title{
+        font-size: 80px;
+    }
+    
+    header .banner-subtitle{
+        font-size: 17px;
+    }
+}
+
+@media screen and (max-width: 400px){ 
+
+    .services-cards{
+        margin-top: 40px;
+    }
+
+    .services-card{
+        width: 60%;
+    }
+
+    .proyect img{
+        width: 290px;
+    }
+
+    .two{
+        width: 80%;
+    }
+
+    .testimonies{
+        height: 530px;
+        margin-top: 50px;
+    }
+
+    header .banner-title{
+        font-size: 60px;
+    }
+
+    .testimonies-div .text{
+        margin: 0 30px;
+    }
+    
+    header .banner-subtitle{
+        font-size: 10px;
+        letter-spacing: 4px;
+    }
+}
