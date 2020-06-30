@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=Nova+Square&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;0,400;1,300&display=swap');
+
+/*font-family: 'Josefin Sans', sans-serif;
+font-family: 'Noto Sans KR', sans-serif;
+*/
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 0;
+}
+
+h1, h2{
+    font-family: 'Nova Square', cursive;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.container{
+    margin: auto;
+    width: 100%;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+}
+
+.separator{
+    border: 1px solid gray;
+    width: 94%;
+    margin-top: 50px;
+}
+
+/*---------------Estilos del banner---------------*/
+
+.banner{
+    position: relative;
+    z-index: -1000;
+    margin-bottom: 50px;
+}
+
+.banner img{
+    filter:brightness(0.4);
+}
+
+.banner .container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    width: 100%;
+    color: #fff;
+    text-align: center;
+}
+
+.banner-title2{
+    margin-top: -28px;
+}
+
+.banner-txt{
+    font-style: italic;
+    font-size: 10px;
+    margin-top: -20px;
+}
+
+/*-------------Estilos de info--------------*/
+
+main .container{
+    margin-top: -50px;
+}
+.info-column{
+    padding: 30px;
+    margin-bottom: -50px;
+    text-align: center;
+}
+
+.info-title{
+    color: #47525e;
+}
+
+.info-title2{
+    color: #028090;
+    text-transform: uppercase;
+    margin-top: -18px;
+    font-size: 10px;
+    letter-spacing: 8px;
+    margin-left: 4px;
+}
+
+.info-txt{
+    font-style: oblique;
+}
+
+.info-txtv{
+    display: block;
+    margin-bottom: 5px;
+    font-style: oblique;
+}
+
+/*--------------Estilos de about us--------------*/
+
+.section-title{
+    margin-top: 25px;
+    text-align: center;
+    font-size: 22px;
+    color: #47525e;
+}
+
+.section-txt{
+    text-align: center;
+    font-size: 15px;
+    margin-top: -20px;
+    color: #028090;
+}
+
+.aboutus-column{
+    position: relative;
+    background: #028090;
+    color: #fff;
+    padding: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 30px;
+    text-align: center; 
+}
+
+.person-img{
+    width: 100%;
+}
+
+@media(min-width:480px){
+    .container{
+        width: 90%;
+    }
+    .banner-title, .banner-title2{
+        font-size: 35px;
+    }
+    
+    .banner-txt{
+        font-size: 13px;
+    }
+
+    .info-title{
+        font-size: 25px;
+    }
+
+    .info-title2{
+        font-size: 13px;
+        letter-spacing: 9px;
+        margin-top: -22px;
+        margin-left: 4px;
+    }
+    
+    .info-txt, .info-txtv{
+        font-size: 20px;
+    }
+
+    .section-title{
+        font-size: 27px;
+        width: 100%;
+    }
+    
+    .section-txt{
+        font-size: 17px;
+        width: 100%;
+    }
+
+    .aboutus{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .aboutus-column{
+        width: 47%;
+        margin-right: 5px;
+        margin-left: 7px;
+    }
+}
+
+@media(min-width:768px){
+    .banner-title, .banner-title2{
+        font-size: 50px;
+    }
+    
+    .banner-txt{
+        font-size: 20px;
+    }
+
+    .info-title{
+        font-size: 35px;
+    }
+
+    .info-title2{
+        font-size: 15px;
+        letter-spacing: 13.7px;
+        margin-left: 7px;
+        margin-top: -30px;
+    }
+    
+    .info-txt, .info-txtv{
+        font-size: 25px;
+    }
+
+    .section-title{
+        font-size: 35px;
+        width: 100%;
+    }
+
+    .separator{
+        margin-top: 75px;
+    }
+    
+    .section-txt{
+        font-size: 23px;
+        width: 100%;
+    }
+
+    .aboutus{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-top: 33px;
+    }
+
+    .aboutus-column{
+        width: 47%;
+        margin-right: 13px;
+    }
+
+    .our-name{
+        font-size: 22px;
+    }
+
+    .our-role{
+        font-size: 17px;
+    }
+}
+
+@media(min-width:1024px){
+    .banner-title, .banner-title2{
+        font-size: 70px;
+        letter-spacing: 10px;
+    }
+    
+    .banner-txt{
+        font-size: 23px;
+    }
+
+    .info-txt{
+        padding: 40px;
+        margin-top: -32px;
+        margin-bottom: -32px;
+    }
+
+    .info-txt, .info-txtv{
+        font-size: 23px;
+    }
+
+    .aboutus{
+        margin-top: -10px;
+    }
+
+    .section-title{
+        margin-top: 70px;
+        font-size: 40px;
+        width: 100%;
+    }
+    
+    .section-txt{
+        font-size: 23px;
+        width: 100%;
+    }
+    .aboutus-column{
+        width: 30%;
+        margin-right: 15px;
+    }
+}

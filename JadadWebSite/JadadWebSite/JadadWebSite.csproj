@@ -132,6 +132,14 @@
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\Image\AboutUs\banner.jpg" />
+    <Content Include="Content\Image\AboutUs\person-1.jpg" />
+    <Content Include="Content\Image\AboutUs\person-2.jpg" />
+    <Content Include="Content\Image\AboutUs\person-3.jpg" />
+    <Content Include="Content\Image\AboutUs\person-4.jpg" />
+    <Content Include="Content\Image\AboutUs\person-5.jpg" />
+    <Content Include="Content\Image\AboutUs\person-6.jpg" />
+    <Content Include="Content\Image\AboutUs\person-7.jpg" />
     <Content Include="Content\Image\Home\backend.png" />
     <Content Include="Content\Image\Home\banner-index.jpg" />
     <Content Include="Content\Image\Home\computer.png" />
@@ -147,6 +155,7 @@
     <Content Include="Content\Image\Services\pagina-web1.jpg" />
     <Content Include="Content\Image\Services\pagina-web2.jpg" />
     <Content Include="Content\Image\Services\pagina-web3.jpg" />
+    <Content Include="Content\StyleAboutUs.css" />
     <Content Include="Content\styleHome.css" />
     <Content Include="Content\styleServices.css" />
     <Content Include="favicon.ico" />
@@ -179,6 +188,7 @@
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Services\Index.cshtml" />
+    <Content Include="Views\Home\About.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
