@@ -148,6 +148,7 @@
     <Content Include="Content\Image\Services\pagina-web2.jpg" />
     <Content Include="Content\Image\Services\pagina-web3.jpg" />
     <Content Include="Content\styleHome.css" />
+    <Content Include="Content\styleNavigationBar.css" />
     <Content Include="Content\styleServices.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
